@@ -1,0 +1,79 @@
+/* Body background gradient */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card container */
+.card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+}
+
+/* Paragraph text */
+p {
+  color: #555;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* Home page links */
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 25px;
+  background: #764ba2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background: #5a3e8c;
+}
+
+/* Other links */
+a {
+  color: #667eea;
+  text-decoration: none;
+}
